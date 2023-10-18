@@ -1,12 +1,10 @@
 import React from "react";
-import Final from "./HigherOrderComp/final/ClickCounter";
-import Final2 from "./HigherOrderComp/final/HoverCounter";
-
+import "./index.css";
+import Starter from './1-useState/starter/5-EguseState-advanced';
 function App() {
   return (
     <div className="App">
-      <Final name={"srikanth"} />
-      <Final2 />
+     <Starter/>
     </div>
   );
 }
