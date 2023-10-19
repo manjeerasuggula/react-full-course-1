@@ -1,7 +1,18 @@
-import React from "react";
+import React, {useEffect,useState} from "react";
 
-const Starter = () => {
-  return <div>Starter useEffect</div>;
-};
+const Index=()=>{
+  useEffect(()=>{
+    console.log("Hello i am coming from useEffect", count);
+  },[]);
+  const[count, setCount]=useState(0);
+  return(
+    <div>
+      <h1>Learn useEffect hello</h1>
+      <h1>{count}</h1>
+      <button onClick={()=>{
+        setCount(count+1)}}>+</button>
+    </div>
+  )
+}
 
-export default Starter;
+export default Index;

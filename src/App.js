@@ -1,10 +1,10 @@
 import React from "react";
 import "./index.css";
-import Starter from './1-useState/starter/6-EguseState-advanced';
+import Index from "./2-useEffect/starter/2-useEffect-advanced"
 function App() {
   return (
     <div className="App">
-     <Starter/>
+     <Index/>
     </div>
   );
 }
