@@ -1,10 +1,12 @@
 import React from "react";
 import "./index.css";
-import Index from "./2-useEffect/starter/2-useEffect-advanced"
+import Starter from "./2-useEffect/starter/4-useEffect-example-2"
+
+
 function App() {
   return (
     <div className="App">
-     <Index/>
+     <Starter/>
     </div>
   );
 }
