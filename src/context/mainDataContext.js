@@ -1,24 +1,20 @@
-import React from "react";
+import React from 'react'
 
-const initialState = [
-  {
-    firstName: "emma",
-    lastName: "watson",
-    email: "emma@gmail.com",
-  },
-  {
-    firstName: "hlo",
-    lastName: "hsdfan",
-    email: "helo@gmail.com",
-  },
-];
+const intitalState=[{
+  firstName:"emma",
+  lastName:"watson",
+  email:"emma@gmail.com"
+},
+{
+  firstName:"manjeera",
+  lastName:"lakshmi",
+  email:"manjeeralakshmi@gmail.com"
+}
+]
 
-export const MainDataContext = React.createContext();
-
-export const MainDataContextProvider = ({ children }) => {
-  return (
-    <MainDataContext.Provider value={initialState}>
-      {children}
-    </MainDataContext.Provider>
-  );
-};
+export const MainDataContext=React.createContext();
+export const MainDataContextProvider=({children})=>{
+  return(
+    <MainDataContext.Provider value={intitalState}>{children}</MainDataContext.Provider>
+  )
+}

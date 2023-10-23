@@ -1,12 +1,12 @@
 import React from "react";
 import "./index.css";
-import Starter from "./2-useEffect/starter/4-useEffect-example-2"
+import ParentComponent from "./3-useContext/starter/1-useContext-basics"
 
 
 function App() {
   return (
     <div className="App">
-     <Starter/>
+     <ParentComponent/>
     </div>
   );
 }
