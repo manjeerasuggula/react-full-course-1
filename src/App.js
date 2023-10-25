@@ -1,12 +1,12 @@
 import React from "react";
 import "./index.css";
-import ParentComponent from "./3-useContext/starter/1-useContext-basics"
+import Starter from "./4-useReducer/starter/1-useRedcuer-basics";
 
 
 function App() {
   return (
     <div className="App">
-     <ParentComponent/>
+     <Starter/>
     </div>
   );
 }
