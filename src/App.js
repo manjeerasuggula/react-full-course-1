@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import Starter from "./4-useReducer/starter/1-useRedcuer-basics";
+import Starter from "./4-useReducer/starter/2-useReducer-advanced";
 
 
 function App() {
